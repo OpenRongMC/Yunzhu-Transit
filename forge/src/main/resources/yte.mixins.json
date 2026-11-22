@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "top.xfunny.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MixinBlockLiftButtons",
+    "MixinBlockLiftPanelBase",
+    "MixinLiftSchema"
+  ],
+  "client": [
+    "MixinDynamicTextureCache",
+    "MixinRenderLiftButtons",
+    "MixinRenderLiftPanel"
+  ],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

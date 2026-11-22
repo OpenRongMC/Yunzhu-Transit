@@ -1,0 +1,2 @@
+// Minecraft 26.3 configuration is shared by the root build.
+apply from: 'item-definitions.gradle'
